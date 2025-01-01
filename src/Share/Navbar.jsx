@@ -6,11 +6,11 @@ const Navbar = () => {
     <div>
       <header className="p-4 dark:bg-gray-100 dark:text-gray-800 shadow-xl fixed w-full border border-gray-300">
         <div className="container flex justify-between items-center h-16 mx-auto">
-          <div className="">
-            <Link to={'/'} className="bg-red-200  ">
-            <span className=""><GiSunflower   className=" text-green-600 hover:text-green-400  hover:animate-spin w-10 h-10 rounded-full border-2 border-spacing-2  border-green-600 hover:border-green-400 "></GiSunflower ></span>
+          <div className="flex items-center gap-x-2">
+            <Link to={'/'} className=" ">
+            <span className=""><GiSunflower   className=" text-green-600 hover:text-green-400  hover:animate-spin w-8 md:w-10 h-8 md:h-10 rounded-full border-2 border-spacing-2  border-green-600 hover:border-green-400 "></GiSunflower ></span>
             </Link>
-            <h2 className="bg-gradient-to-t ">Green Fashion</h2>
+            <h2 className="uppercase text-lg md:text-2xl xl:text-3xl font-bold"> <span className="bg-gradient-to-r  from-green-600 to-pink-400 text-transparent bg-clip-text animate-gradient">Green Fashion</span></h2>
           </div>
           <ul className="items-stretch hidden space-x-3 lg:flex">
             <li className="flex">
