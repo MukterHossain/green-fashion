@@ -4,7 +4,7 @@ import { GiSunflower } from "react-icons/gi";
 const Navbar = () => {
   return (
     <div>
-      <header className="py-4 dark:bg-gray-100 dark:text-gray-800 shadow-xl fixed w-full border border-gray-300">
+      <header className="py-4 px-2 dark:bg-gray-100 dark:text-gray-800 shadow-xl fixed w-full border border-gray-300">
         <div className="max-w-7xl flex justify-between items-center h-12 mx-auto">
           <div className="flex items-center gap-x-2">
             <Link to={'/'} className=" ">
@@ -51,10 +51,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="items-center flex-shrink-0 hidden lg:flex">
-            <button className="self-center px-8 py-3 rounded">Sign in</button>
-            <button className="self-center px-8 py-3 font-semibold rounded dark:bg-violet-600 dark:text-gray-50">
-              Sign up
-            </button>
+            <button className="self-center   rounded">Sign in</button>
           </div>
           <button className="p-4 lg:hidden">
             <svg
