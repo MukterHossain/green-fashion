@@ -62,7 +62,7 @@ const Navbar = () => {
                 <img className="w-12 h-12" src="https://i.ibb.co.com/k4Fy93r/Mlogo5.png" alt="" />
               </button>         
             </div>
-            <div  className={` ${isOpen  ? ' mr-0': '-mr-80'} bg-gray-50 w-[180px] top-0 right-0 -pt-4 -pr-2  lg:hidden absolute h-screen duration-200 delay-100`} > 
+            <div  className={` ${isOpen  ? ' mr-0': '-mr-80'}  bg-gray-50 w-[180px] top-0 right-0 -pt-4 -pr-2  lg:hidden absolute h-screen duration-200 delay-100`} > 
               <img className="w-8 h-8 mt-3 ml-4" src="https://i.ibb.co.com/k4Fy93r/Mlogo5.png" alt="" />
               <button onClick={()=> setIsOpen(false)} className=" absolute top-2 right-2 p-2">
                  <RxCross2 size={20}></RxCross2>
