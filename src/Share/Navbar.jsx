@@ -8,10 +8,7 @@ const Navbar = () => {
   const [barOpen, setBarOpen] = useState(false)
   const [isOpen, setIsOpen] = useState(false)
 
-  // const open = () =>{
-  //   setBarOpen(!barOpen)
-    
-  // }
+
 
 
 
@@ -26,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="  py-4 px-2 dark:bg-gray-100 dark:text-gray-800 shadow-xl fixed w-full border border-gray-300">
+      <header className="  py-4 px-2 dark:bg-gray-100 dark:text-gray-800 shadow-xl fixed w-full border border-gray-300 z-50">
         <div className="max-w-7xl flex justify-between items-center h-12 mx-auto ">
           {/* Left Side bar toggle */}
             <button onClick={()=> setBarOpen(true)} className="p-4 lg:hidden">
